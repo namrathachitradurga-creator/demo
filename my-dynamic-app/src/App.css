@@ -1,0 +1,52 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App background */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Background image */
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+footer p {
+  margin: 6px 0;
+  font-size: 14px;
+}

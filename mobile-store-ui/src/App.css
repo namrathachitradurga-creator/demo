@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgb(126, 214, 228);
+  padding: 20px;
+  margin: 20px auto;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #080808;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(177, 171, 175);
+  border: none;
+  border-radius: 5px;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+h3 {
+  margin-top: 15px;
+  color: #27ae60;
+}

@@ -1,0 +1,48 @@
+/* Reset default browser spacing */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main app container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Sensible background image */
+  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Semi-transparent card effect */
+.App h1,
+.App input,
+.App p {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Input styling */
+.App input {
+  width: 250px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.App input:focus {
+  border-color: #007bff;
+}
+
+/* Text display */
+.App p {
+  font-size: 18px;
+  font-weight: 500;
+}
